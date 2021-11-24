@@ -19,8 +19,6 @@ import sys
 from pathlib import Path
 from context import feature_extractor, utils
 
-sys.stdin.reconfigure(encoding='utf-8')
-sys.stdout.reconfigure(encoding='utf-8')
 
 SOURCE_FILE_PATH = os.path.abspath(
     os.path.join(os.path.dirname(__file__), 'source_test.txt'))
